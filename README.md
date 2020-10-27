@@ -4,10 +4,10 @@ Building a image gallery site with reactjs and tailwindcss
 
 ## Steps
  
-### npx create-react-app react-tailwindcss && cd react-tailwindcss
-### npm install tailwindcss postcss-cli autoprefixer@9.8.6 -D
-### npx tailwind init tailwind.js --full > full is optional
-### touch postcss.config.js
+##### npx create-react-app react-tailwindcss && cd react-tailwindcss
+##### npm install tailwindcss postcss-cli autoprefixer@9.8.6 -D
+##### npx tailwind init tailwind.js --full > full is optional
+##### touch postcss.config.js
 ## Add this to the postcss.config.js
 
 const tailwindcss = require('tailwindcss');
