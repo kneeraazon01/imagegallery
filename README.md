@@ -1,50 +1,17 @@
-# ImageGallery
-Building a image gallery site with reactjs and tailwindcss
+# Pixabay Image Gallery - React & Tailwind CSS 
 
+Simple gallery with images from the pixabay API. Tailwind css is built into workflow with postcss and autoprefixer.
 
-## Steps
- 
-##### npx create-react-app react-tailwindcss && cd react-tailwindcss
-##### npm install tailwindcss postcss-cli autoprefixer@9.8.6 -D
-##### npx tailwind init tailwind.js --full > full is optional
-##### touch postcss.config.js
-## Add this to the postcss.config.js
+## Usage
+Add your Pixabay API key to .env - https://pixabay.com/api/docs/
 
-const tailwindcss = require('tailwindcss');
-module.exports = {
-    plugins: [
-        tailwindcss('./tailwind.js'),
-        require('autoprefixer')
-    ],
-};
+```
+# Install dependencies
+npm install
 
-## Add this to  tailwind.css file in src
+# Watch CSS & run server on :3000
+npm start
 
-@tailwind base;
-
-@tailwind components;
-
-@tailwind utilities;
-
-or 
-
-@import "tailwindcss/base";
-
-@import "tailwindcss/components";
-
-@import "tailwindcss/utilities";
-
-
-## Modify Scripts in package.json as follows
-
-"scripts": {
-  "start": "npm run watch:css && react-scripts start",
-  "build": "npm run watch:css && react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
-  "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
-}
-
-## now add the main.css from src to index.js and you are good to go
-
-import './assets/main.css'
+# Build CSS and assets
+npm run build
+```
