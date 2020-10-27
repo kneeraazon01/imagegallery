@@ -1,17 +1,4 @@
-# Pixabay Image Gallery - React & Tailwind CSS 
+## Building a image gallery site with tailwindcss and reactjs
+### Link : https://imagegallerynumberone.netlify.app/
 
-Simple gallery with images from the pixabay API. Tailwind css is built into workflow with postcss and autoprefixer.
-
-## Usage
-Add your Pixabay API key to .env - https://pixabay.com/api/docs/
-
-```
-# Install dependencies
-npm install
-
-# Watch CSS & run server on :3000
-npm start
-
-# Build CSS and assets
-npm run build
-```
+ 
